@@ -1,13 +1,13 @@
 variable "region" {
-  default = "us-east-1"
+  default = "ap-south-1"
 }
 
 variable "ami_id" {
   type = "map"
 
   default = {
-    us-east-1    = "ami-035b3c7efe6d061d5"
-    eu-west-2    = "ami-132b3c7efe6sdfdsfd"
-    eu-central-1 = "ami-9787h5h6nsn"
+    ap-south-1    = "ami-0ebc1ac48dfd14136"
+    ap-norththeast-2    = "ami-05a4cce8936a89f06"
+    ap-southeast-1 = "ami-0cd31be676780afa7"
   }
 }
