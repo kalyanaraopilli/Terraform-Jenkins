@@ -13,11 +13,6 @@ pipeline {
         jenkins_secret_aws = credentials('jenkins_secret_aws')
     }
 
-   agent  any
-        options {
-                timestamps ()
-                ansiColor('xterm')
-            }
     stages {
         stage('checkout') {
             steps {
